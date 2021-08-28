@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="111dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView_titleq"
+                android:layout_width="252dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif"
+                android:text="Initializing a timer interrupt in Zedboard Development Board"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Tags: Xilinx, Interrupts, C"
+                android:textSize="10dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView_titleq" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="259dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:text="I want to know what are the neccesary steps to initialize the timer in the software side of the zedboard and the things to consider when initializing the timer. "
+                android:textSize="13dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageView4_2"
+                android:layout_width="111dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/avatar_2" />
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="252dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
+                android:text="Multiplication/Division of Matrices"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Tags: Matlab, Programming"
+                android:textSize="10dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_2"
+                app:layout_constraintTop_toBottomOf="@+id/textView_2" />
+
+            <TextView
+                android:id="@+id/textView4_2"
+                android:layout_width="249dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:text="I want to know on how should I implement correctly the multiplication/division of matrices. Additionally, may I also know how such operations work."
+                android:textSize="13dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_2"
+                app:layout_constraintTop_toBottomOf="@+id/textView3_2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageView4_3"
+                android:layout_width="111dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/avatar_3" />
+
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_width="247dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
+                android:text="Programming language"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Tags: Programming"
+                android:textSize="10dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_3"
+                app:layout_constraintTop_toBottomOf="@+id/textView_3" />
+
+            <TextView
+                android:id="@+id/textView4_3"
+                android:layout_width="249dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif"
+                android:text="Hello, I am interested to take programming as a hobby. I just want to know what is the best programming language for a beginner like me."
+                android:textSize="13dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4_3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3_3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
